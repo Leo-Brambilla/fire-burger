@@ -12,6 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { HomeComponent } from './views/home/home.component';
+import { CheffComponent } from './views/cheff/cheff.component';
 
 
 
@@ -20,7 +21,8 @@ import { HomeComponent } from './views/home/home.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    CheffComponent
   ],
   imports: [
     BrowserModule,
