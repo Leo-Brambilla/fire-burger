@@ -1,0 +1,33 @@
+.example-card {
+  background:  black ;
+  border: none;
+}
+.card-container {
+  display: flex;
+  margin-left: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  columns: #ffffff;
+
+}
+.mat-mdc-card-title, .mat-mdc-card-subtitle{
+  display: block;
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 2;
+}
+.card-container p {
+  text-align: justify;
+  font-size: large;
+  width: 40vw;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+img {
+  width: 50vw;
+  height: 60vh;
+  object-fit: cover;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
